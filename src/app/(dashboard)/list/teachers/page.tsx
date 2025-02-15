@@ -85,7 +85,6 @@ const TeacherListPage = () => {
                         {
                             role == "admin" && (
                                 <FormModal type='delete' table='teacher' id={item.id}  />
-
                             )
                         }
                     </div>
