@@ -1,4 +1,4 @@
-import { Parents, Students, Teacher } from '@/lib/Types';
+// import { Parents, Students, Teacher } from '@/lib/Types';
 import React from 'react'
 
 const Table = ({
@@ -7,8 +7,8 @@ const Table = ({
     data
 }: {
     columns: { header: string, assessor: string, className?: string }[];
-    renderRow:(item: Students | Teacher | Parents)=> React.ReactNode;
-    data: Students[] | Teacher[] | Parents[]
+    renderRow:(item:any)=> React.ReactNode;
+    data: any[]
 
 }) => {
     return (
